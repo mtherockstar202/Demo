@@ -1,0 +1,167 @@
+Message
+
+{
+
+"paymentId": "",
+
+"mpiId": "MPI-001",
+
+"mpiDescription": "Test Payment",
+
+"owningDirector": "John Doe",
+
+"legalEntity": "Elite group",
+
+"legalEntityIdentifier": "ELI-123456789",
+
+"currency": "USD",
+
+"counterpartyID": "CP-001",
+
+"productType": "SWIFT",
+
+"valueDate":
+
+"ssiID": "SSI-001",
+
+"endToEnd_ID": "E2E-001",
+
+"paymentPriprity": "HIGH",
+
+"paymentAmount":
+
+"paymentValue":
+
+"paymentCurrency": "USD",
+
+"original InstructionAmount":
+
+"original InstructionCurrency": "EUR",
+
+"exchangeRate": 1.0152,
+
+"charges": [
+
+"chargesId": "CHG-001",
+
+"chargeBearer": "SHARED",
+
+"chargeInformation": "Standard processing fee",
+
+"chargeCurrency": "USD",
+
+"chargeAmount": 25.00,
+
+"agent": "Agent101",
+
+"chargeCode": "PROC"
+
+}
+
+],
+"debtor": {
+
+"debtorId": "DBT-001",
+
+"debtorCustomer": "Acne Corporation",
+
+"debtorBicCode": "DBIC001",
+
+"debtorBankCode": "200000",
+
+"debtorName": "Acne Corp Ltd",
+
+"debtorCountry": "GB",
+
+"debtorLei": "ELI-ACNE001",
+
+"debtorAccountNumber": "12345678"
+
+},
+
+"debtorAgent": {
+
+"agentId": "AGT-001",
+
+"swiftBic": "DBIC001",
+
+"name": "Money Bank",
+
+"country": "GB"
+
+},
+
+"intermediaryAgent": {
+
+"agentId": "AGT-002",
+
+"swiftBic": "IBIC001",
+
+"name": "JP Bank",
+
+"country": "US"
+
+},
+
+"remarkComment": "Payment for invoice #INV-2025-001",
+
+"fromBic": {
+
+"bicId": "BIC-001",
+
+"bicCode": "DBIC001",
+
+"name": "Money Bank",
+
+"location": "London",
+
+"lei": "ELIBIC001"
+
+},
+
+"toBic": {
+
+"bicId": "BIC-002",
+
+"bicCode": "CBIC002",
+
+"name": "Ditibank",
+
+"location": "New York",
+
+"lei": "EL1002"
+
+"creditor": {
+
+"creditorId": "CRD-001",
+"bicCode": "CBIC002",
+
+"name": "Global Supplies Inc",
+
+"country": "US",
+
+"account Number": "87654321"
+
+},
+
+"creditorAgent": {
+
+"agentId": "AGT-003",
+
+"swiftBic": "CBIC002",
+
+"name": "Ditibank",
+
+"country": "US"
+
+},
+
+"categoryPurposeCode": "SUPP",
+
+"categoryPurposeDescription": "Supplier Payment",
+
+"IS_CLS_Eligible": true,
+
+"ledgerPostingFlag": true
+
+}
